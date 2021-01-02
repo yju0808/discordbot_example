@@ -7,16 +7,6 @@
 
 디스코드 봇 예제 및 가이드입니다      
 
-유용한 링크
----
-- [YJU가 제작한 디스코드 봇 소스코드](https://github.com/yju0808/discordbot_example/blob/master/discordbot.py)   
-- [처음부터 잘 정리된 블로그 글](https://m.blog.naver.com/6116949/221901926848)   
-- [다양한 기능 구현을 볼 수 있는 블로그](https://blue-coding.tistory.com/15?category=755355)   
-- [discord.py 소스코드](https://github.com/Rapptz/discord.py)   
-- [discord.py API 공식문서](https://discordpy.readthedocs.io/en/latest/api.html)  
-
-<br/>
-
 
 봇 제작 시작하기
 ---
@@ -67,3 +57,13 @@ import re
 |selenium|웹 크롤링(유튜브)|[<문과의 파이썬>셀레니움(selenium)](https://brunch.co.kr/@jk-lab/18)|
 |bs4|웹 크롤링(유튜브)|[사이트 정보 추출하기 - beautifulsoup 사용법](https://wikidocs.net/85739)|
 |re|정규표현식(알파벳 검색)|[점프 투 파이썬 07장 정규표현식](https://wikidocs.net/1669)|
+
+<br/>
+
+유용한 링크
+---
+- [YJU가 제작한 디스코드 봇 소스코드](https://github.com/yju0808/discordbot_example/blob/master/discordbot.py)   
+- [처음부터 잘 정리된 블로그 글](https://m.blog.naver.com/6116949/221901926848)   
+- [다양한 기능 구현을 볼 수 있는 블로그](https://blue-coding.tistory.com/15?category=755355)   
+- [discord.py 소스코드](https://github.com/Rapptz/discord.py)   
+- [discord.py API 공식문서](https://discordpy.readthedocs.io/en/latest/api.html)  
