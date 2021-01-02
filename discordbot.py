@@ -44,6 +44,7 @@ class chatbot(discord.Client):
             if message.content == "!명령어":
                 embed = discord.Embed(
                     title="안녕하세요", description="명령어를 소개합니다", colour=0x5CD1E5)
+                embed.add_field(name="!제작가이드", value="디스코드 봇 제작 가이드 링크를 보내드려요", inline=False)
                 embed.add_field(name="!말해", value="채팅을 보내드려요", inline=False)
                 embed.add_field(name="!embed", value="embed를 보내드려요", inline=False)
                 embed.add_field(name="!가위바위보 가위/바위/보", value="저랑 가위바위보를 합니다!", inline=False)
@@ -55,6 +56,12 @@ class chatbot(discord.Client):
                 await channel.send(embed=embed)
                 return None
 
+            if message.content == "!제작가이드":
+                embed = discord.Embed(
+                    title="디스코드 봇 제작 가이드", description="https://github.com/yju0808/discordbot_example", colour=0x5CD1E5)
+
+                await channel.send(embed=embed)
+                return None
 
             if message.content == "!말해":
                 await channel.send(content="안녕하세요!!")
