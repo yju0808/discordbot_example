@@ -51,6 +51,7 @@ class chatbot(discord.Client):
                 embed.add_field(name="!번역영한 번역할말", value="영-->한 번역을 해드려요", inline=False)
                 embed.add_field(name="!번역한영 번역할말", value="한-->영 번역을 해드려요", inline=False)
                 embed.add_field(name="!유튜브검색 검색어", value="유튜브에서 검색어를 검색해드려요", inline=False)
+                embed.add_field(name="!이미지검색 검색어", value="이미지를 검색해드려요", inline=False)
                 embed.add_field(name="!계산기 수식", value="수식을 계산해드려요", inline=False)
 
                 await channel.send(embed=embed)
@@ -144,6 +145,21 @@ class chatbot(discord.Client):
                 await channel.send(embed=embed)
                 await channel.send(content='https://www.youtube.com' + result.get("href"))
                 return None
+
+
+            if message.content.startswith("!이미지검색"):
+                URL = 'https://openapi.naver.com/v1/search/image?query={}&display=1'.format(message.content[6:])
+
+                headers = {'X-Naver-Client-Id': client_id,
+                            'X-Naver-Client-Secret': client_secret}
+                image = json.loads(requests.get(URL,headers=headers).text)['items'][0]['link']
+
+                embed = discord.Embed(title="검색결과", description='{}에 대한 검색 결과입니다'.format(message.content[6:]),colour=0x5CD1E5)
+                embed.set_image(url=image)
+
+                await channel.send(embed=embed)
+                return None
+                
 
             
             if message.content.startswith("!계산기"):
