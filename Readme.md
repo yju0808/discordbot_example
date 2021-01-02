@@ -52,8 +52,8 @@ import re
 |모듈|용도|관련 링크|
 |:---:|:---:|:---:|
 |discord|디스코드 봇 제작|[discord.py API 공식문서](https://m.blog.naver.com/6116949/221901926848)|
-|requests|네이버 api 이용(번역)|[Python requests 모듈 간단 정리](https://dgkim5360.tistory.com/entry/python-requests), [네이버 오픈 api](https://developers.naver.com/products/intro/plan/)|
-|json|api 결과값 사용(번역)|[[파이썬] json 모듈로 JSON 데이터 다루기](https://www.daleseo.com/python-json/)|
+|requests|네이버 api 이용(번역, 이미지 검색)|[Python requests 모듈 간단 정리](https://dgkim5360.tistory.com/entry/python-requests), [네이버 오픈 api](https://developers.naver.com/products/intro/plan/)|
+|json|api 결과값 사용(번역, 이미지 검색)|[[파이썬] json 모듈로 JSON 데이터 다루기](https://www.daleseo.com/python-json/)|
 |random|랜덤선택(가위바위보)|[랜덤(random) 모듈](https://wikidocs.net/79)|
 |selenium|웹 크롤링(유튜브)|[<문과의 파이썬>셀레니움(selenium)](https://brunch.co.kr/@jk-lab/18)|
 |bs4|웹 크롤링(유튜브)|[사이트 정보 추출하기 - beautifulsoup 사용법](https://wikidocs.net/85739)|
