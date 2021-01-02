@@ -2,23 +2,25 @@
 <img src="./img/support.png" width="20%" height="20%" alt="mainimg"></img>
 </p>
 
-디스코드 봇 예제
+디스코드 봇 예제 및 가이드
 ===
 
-디스코드 봇 예제입니다      
+디스코드 봇 예제 및 가이드입니다      
 
-유용한 페이지
+유용한 링크
 ---
+[YJU가 제작한 디스코드 봇 소스코드](https://github.com/yju0808/discordbot_example/blob/master/discordbot.py)
+[처음부터 잘 정리된 블로그 글](https://m.blog.naver.com/6116949/221901926848)   
+[다양한 기능 구현을 볼 수 있는 블로그](https://blue-coding.tistory.com/15?category=755355)   
 [discord.py 소스코드](https://github.com/Rapptz/discord.py)   
 [discord.py API 공식문서](https://discordpy.readthedocs.io/en/latest/api.html)    
-[처음부터 잘 정리된 블로그 글](https://m.blog.naver.com/6116949/221901926848)   
-[다양한 기능 구현을 볼 수 있는 블로그](https://blue-coding.tistory.com/15?category=755355)      
+   
 
 <br/>
 
 기능 구현을 위한 가이드
 ---
-사용한 모듈
+YJU가 사용한 모듈
 [모듈이란?](https://wikidocs.net/29)   
 ```{.python}
 import discord
