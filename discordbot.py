@@ -46,7 +46,7 @@ class chatbot(discord.Client):
                     title="안녕하세요", description="명령어를 소개합니다", colour=0x5CD1E5)
                 embed.add_field(name="!제작가이드", value="디스코드 봇 제작 가이드 링크를 보내드려요", inline=False)
                 embed.add_field(name="!말해", value="채팅을 보내드려요", inline=False)
-                embed.add_field(name="!embed", value="embed를 보내드려요", inline=False)
+                embed.add_field(name="!임베드", value="임베드를 보내드려요", inline=False)
                 embed.add_field(name="!가위바위보 가위/바위/보", value="저랑 가위바위보를 합니다!", inline=False)
                 embed.add_field(name="!번역영한 번역할말", value="영-->한 번역을 해드려요", inline=False)
                 embed.add_field(name="!번역한영 번역할말", value="한-->영 번역을 해드려요", inline=False)
@@ -67,10 +67,10 @@ class chatbot(discord.Client):
                 await channel.send(content="안녕하세요!!")
 
 
-            if message.content == "!embed":
+            if message.content == "!임베드":
                 embed = discord.Embed(
                     title="안녕하세요", description="", colour=0x5CD1E5)
-                embed.add_field(name="이것이 embed랍니다", value="ㅎㅎ", inline=False)
+                embed.add_field(name="이것이 임베드랍니다", value="ㅎㅎ", inline=False)
 
                 await channel.send(embed=embed)
                 return None
@@ -152,7 +152,7 @@ class chatbot(discord.Client):
 
                 #safe eval을 위한 코드 입력 방지
                 if re.search('[a-zA-Z]', mathematical_expression) == None:
-                     embed = discord.Embed(title="계산결과", description=eval(mathematical_expression),colour=0x5CD1E5)
+                     embed = discord.Embed(title="계산결과", description=str(eval(mathematical_expression)),colour=0x5CD1E5)
                      await channel.send(embed=embed)
                      return None
 
