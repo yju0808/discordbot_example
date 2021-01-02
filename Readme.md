@@ -39,7 +39,7 @@ pip install discord
 ```
 https://discordapp.com/oauth2/authorize?client_id=봇의클라이언트아이디&scope=bot   
 ```
-에서 "봇의클라이언트아이디" 를 교체해주시고 접속하시면 초대가 가능합니다.
+이 링크에서 "봇의클라이언트아이디" 를 교체해주시고 접속하시면 초대가 가능합니다.
 
 
 <br/>
