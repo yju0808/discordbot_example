@@ -1,5 +1,4 @@
 import discord
-from discord import activity
 import requests
 import json
 import random
