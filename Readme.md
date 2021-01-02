@@ -13,14 +13,31 @@
 [처음부터 잘 정리된 블로그 글](https://m.blog.naver.com/6116949/221901926848)   
 [다양한 기능 구현을 볼 수 있는 블로그](https://blue-coding.tistory.com/15?category=755355)   
 [discord.py 소스코드](https://github.com/Rapptz/discord.py)   
-[discord.py API 공식문서](https://discordpy.readthedocs.io/en/latest/api.html)    
-   
+[discord.py API 공식문서](https://discordpy.readthedocs.io/en/latest/api.html)  
+
+<br/>
+
+
+봇 제작 시작하기
+---
+[해당 링크](https://m.blog.naver.com/6116949/221901926848)에 나와있는 대로 진행하시면 됩니다
+대체적으로 잘 설명되어 있으나 
+```
+일단, Discord 봇을 만들기 위해서는 Discord 라이브러리를 다운로드 받아서 사용하도록 선언해야합니다. 사용하시는 IDE 따라서 pip를 이용하여 설치하시면 됩니다. 특히, venv 환경을 사용하시는 경우에 조심하시기 바랍니다.
+```
+이 부분은 [cmd](https://editorizer.tistory.com/200)를 열고
+```
+pip install discord
+```
+를 입력하시면 되고요
+
+
 
 <br/>
 
 기능 구현을 위한 가이드
 ---
-YJU가 사용한 모듈
+YJU가 사용한 모듈   
 [모듈이란?](https://wikidocs.net/29)   
 ```{.python}
 import discord
