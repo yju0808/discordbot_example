@@ -9,9 +9,10 @@
 
 유용한 페이지
 ---
-[discord.py 소스코드   ](https://github.com/Rapptz/discord.py)   
-[discord.py API 공식문서   ](https://discordpy.readthedocs.io/en/latest/api.html)    
-[잘 정리된 블로그 글   ](https://m.blog.naver.com/6116949/221901926848)        
+[discord.py 소스코드](https://github.com/Rapptz/discord.py)   
+[discord.py API 공식문서](https://discordpy.readthedocs.io/en/latest/api.html)    
+[처음부터 잘 정리된 블로그 글](https://m.blog.naver.com/6116949/221901926848)   
+[다양한 기능 구현을 볼 수 있는 블로그](https://blue-coding.tistory.com/15?category=755355)      
 
 <br/>
 
