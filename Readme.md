@@ -19,6 +19,7 @@
 기능 구현을 위한 가이드
 ---
 사용한 모듈
+[모듈이란?](https://wikidocs.net/29)   
 ```{.python}
 import discord
 import requests
