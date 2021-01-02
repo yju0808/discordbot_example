@@ -33,6 +33,13 @@ pip install discord
 ```
 를 입력하시면 되고요
 
+<br/>
+
+링크 내용을 다 하신 후에 디스코드 봇을 서버에 초대하는 방법은
+```
+https://discordapp.com/oauth2/authorize?client_id=봇의클라이언트아이디&scope=bot   
+```
+에서 "봇의클라이언트아이디" 를 교체해주시고 접속하시면 초대가 가능합니다.
 
 
 <br/>
