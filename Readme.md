@@ -39,7 +39,7 @@ https://discordapp.com/oauth2/authorize?client_id=봇의클라이언트아이디
 ---
 [디스코드 봇 예제](https://github.com/yju0808/discordbot_example/blob/master/discordbot.py)에서 사용한 모듈   
 [모듈이란?](https://wikidocs.net/29)   
-```{.python}
+```python
 import discord
 import requests
 import json
