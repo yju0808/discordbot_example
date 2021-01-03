@@ -21,7 +21,7 @@ client_secret = secret[2]
 
 #번역을 위한 함수 번역 소스 언어, 번역 목적 언어, 번역하려는 말을 매개변수로 받는다
 def translate(source,target,text):
-    #네이버 api url
+    #네이버 api URL
     URL = 'https://openapi.naver.com/v1/papago/n2mt'
 
     #api 요청을 위한 헤더와 변수를 작성한다
